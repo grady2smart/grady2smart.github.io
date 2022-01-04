@@ -168,6 +168,18 @@
     border-bottom-right-radius: 5px;
     font-weight: 700;
   }
+ .card a:hover {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #1f1e1e;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+  }
   
  .seprator{
      width: 100%;
