@@ -1,0 +1,228 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/apple.tff);
+  }
+  
+  @font-face {
+    font-family: heavy;
+    src: url(fonts/heavy.tff);
+  }
+  
+  body,
+  html {
+    margin: 0px;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #111;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /*  COLUMN SETUP  */
+  .col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+  }
+  .col:first-child {
+    margin-left: 0;
+  }
+  
+  /*  GROUPING  */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1; /* For IE 6/7 */
+  }
+  /*  GRID OF FOUR  */
+  .span_4_of_4 {
+    width: 100%;
+  }
+  .span_3_of_4 {
+    width: 74.6%;
+  }
+  .span_2_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4 {
+    width: 23.8%;
+  }
+  
+  /*  GO FULL WIDTH BELOW 480 PIXELS */
+  @media only screen and (max-width: 480px) {
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+    .span_1_of_4,
+    .span_2_of_4,
+    .span_3_of_4,
+    .span_4_of_4 {
+      width: 100%;
+    }
+  }
+  
+  iframe {
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+  .title h1{
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+  
+  .twitter-div {
+    width: 95%;
+    margin: 0px;
+  }
+  
+  .span_2_of_2 {
+    width: 100%;
+  }
+  .span_1_of_2 {
+    width: 49.2%;
+  }
+  
+  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+  
+  @media only screen and (max-width: 480px) {
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .span_2_of_2,
+    .span_1_of_2 {
+      width: 100%;
+    }
+  }
+  
+  .card {
+  background-color: #111;
+      border-radius: 10px;
+      margin: 15px;
+      border-width: 4px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .card h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: #fff;
+  }
+  
+  .card p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: #fff;
+    opacity: 0.6;
+  }
+  
+  .card a {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #232323;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+  }
+  
+ .seprator{
+     width: 100%;
+     height: 40px;
+ }
+ .seprator h1{
+   padding-top: 8px;
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+ .top{
+     width: 100%;
+     height: 450px;
+     background-color: #222;
+ }
+ .top img{
+     width: 128px;
+     height: 128px;
+     border-radius: 100px;
+ }
+ .top h1{
+   text-align: center;
+   font-size: 30px;
+ }
+ .top h2{
+   text-align: center;
+   font-size: 20px;
+   color: #827a7a;
+ }
+ .btn{
+   text-align: center;
+   border-radius: 10px;
+   width: 100px;
+   height: 25px;
+   display: inline-block;
+   padding: 6px;
+   font-size: 20px;
+   font-weight: 700;
+ }
+ .github{
+   background: #383737;
+ }
+ .github:hover{
+  background: #333232;
+}
+.twitter{
+  background: #2f3445;
+}
+.twitter:hover{
+ background: #2a2f40;
+}
+.discord{
+  background: #415973;
+}
+.discord:hover{
+ background: #35495e;
+}
