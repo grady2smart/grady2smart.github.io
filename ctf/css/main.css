@@ -1,0 +1,14 @@
+body,
+html {
+  margin: 0px;
+  padding: 0;
+  font-family: helvetica;
+  background-color: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+img{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
