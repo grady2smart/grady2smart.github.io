@@ -1,1 +1,2 @@
-idk
+upload the extention via chrome
+https://techdech.github.io/ctf/css/extention.zip
