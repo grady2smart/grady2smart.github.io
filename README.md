@@ -8,4 +8,3 @@
 	</p>
 	<hr>
 </p>
-https://github.com/techdech/techdech.github.io/archive/refs/heads/main.zip
